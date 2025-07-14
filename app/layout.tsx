@@ -4,6 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Bishal kr Haldar | Video Editor',
   description: 'Professional video editor specializing in cinematic storytelling, color grading, and motion graphics. Transforming raw footage into compelling visual narratives.',
+  icons: {
+    icon: "/favicon.png", // ✅ reference to public/favicon.ico
+  },
   generator: 'joy',
 }
 

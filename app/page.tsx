@@ -148,7 +148,7 @@ export default function VideoEditorPortfolio() {
       duration: "8:30",
       thumbnail: "/placeholder.svg?height=300&width=400",
       gifThumbnail: "/s.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+      youtubeEmbedUrl: "https://www.youtube.com/embed/5rlKxDscqKg?autoplay=1",
       orientation: "landscape",
     },
   ];
