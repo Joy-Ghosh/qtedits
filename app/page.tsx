@@ -311,20 +311,24 @@ export default function VideoEditorPortfolio() {
               transform your raw footage into cinematic masterpieces.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button
-                size="lg"
-                className="bg-red-600 hover:bg-red-700 text-lg px-8"
-              >
-                <Play className="mr-2 h-5 w-5" />
-                View My Work
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-gray-600 text-lg px-8 bg-transparent"
-              >
-                Download Reel
-              </Button>
+              <Link href="#portfolio">
+                <Button
+                  size="lg"
+                  className="bg-red-600 hover:bg-red-700 text-lg px-8"
+                >
+                  <Play className="mr-2 h-5 w-5" />
+                  View My Work
+                </Button>
+              </Link>
+              <Link href="#contact">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-gray-600 text-lg px-8 bg-transparent"
+                >
+                  Connect with Me
+                </Button>
+              </Link>
             </div>
             <div className="flex items-center gap-8 mt-12">
               <div className="text-center">
