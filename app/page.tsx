@@ -34,121 +34,120 @@ export default function VideoEditorPortfolio() {
 
   const allProjects = [
     {
-      title: "Brand Commercial",
-      category: "Commercial",
+      title: "Wedding",
+      category: "Wedding",
       duration: "2:30",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail:
-        "https://res.cloudinary.com/dhvp7kton/video/upload/v1752517046/119400-717695274_tiny_t1vcfm.mp4", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/f4s9ItDy7eo?autoplay=1", // Example YouTube embed URL
+      gifThumbnail: "/wedding.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/wOjM6FtgIh8?autoplay=1", // Example YouTube embed URL
       orientation: "landscape",
     },
     {
-      title: "Instagram Reel",
-      category: "Social Media",
+      title: "Gaming Reel",
+      category: "Instagram Reel",
       duration: "0:30",
       thumbnail: "/placeholder.svg?height=400&width=300",
-      gifThumbnail: "/placeholder.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+      gifThumbnail: "/Gaming.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/0l3OfN9bQxs?autoplay=1",
       orientation: "portrait",
     },
     {
-      title: "Music Video",
-      category: "Music",
+      title: "Podcast Episode",
+      category: "Podcast",
       duration: "3:45",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/s.gif",
-      youtubeEmbedUrl: "https://www.youtube.com/embed/5rlKxDscqKg?autoplay=1",
+      gifThumbnail: "/Podcast.gif",
+      youtubeEmbedUrl: "https://www.youtube.com/embed/SzHh8WFu1ps?autoplay=1",
       orientation: "landscape",
     },
     {
-      title: "TikTok Campaign",
-      category: "Social Media",
+      title: "Vlog Reel",
+      category: "Instagram Reel",
       duration: "0:15",
       thumbnail: "/placeholder.svg?height=400&width=300",
-      gifThumbnail: "/placeholder.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+      gifThumbnail: "/vlog.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/9T-N9D74hNw?autoplay=1",
       orientation: "portrait",
     },
     {
-      title: "Documentary",
-      category: "Documentary",
+      title: "CS2 Montage",
+      category: "Gaming",
       duration: "45:00",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/placeholder.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+      gifThumbnail: "/cs2.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/aZVOk0qeGu8?autoplay=1",
       orientation: "landscape",
     },
     {
-      title: "Vertical Ad",
-      category: "Commercial",
+      title: "Event Trailer",
+      category: "Trailer",
       duration: "1:00",
       thumbnail: "/placeholder.svg?height=400&width=300",
-      gifThumbnail: "/placeholder.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+      gifThumbnail: "/event.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/44RqwDFs7i8?autoplay=1",
       orientation: "portrait",
     },
     {
-      title: "Corporate Video",
-      category: "Corporate",
+      title: "Valorant Montage",
+      category: "Montage",
       duration: "5:20",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/placeholder.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+      gifThumbnail: "/montage.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/xzmadKWfjqQ?autoplay=1",
       orientation: "landscape",
     },
     {
-      title: "Short Film",
-      category: "Film",
+      title: "PUBG Montage",
+      category: "Montage",
       duration: "12:15",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/placeholder.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+      gifThumbnail: "/pubg.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/I3cBS4Yg8lw?autoplay=1",
       orientation: "landscape",
     },
     // Additional projects for load more
     {
-      title: "YouTube Intro",
-      category: "Social Media",
+      title: "Esports Game Highlights",
+      category: "Highlights",
       duration: "0:10",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/placeholder.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+      gifThumbnail: "/Highlights.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/nu_DNbXJG9M?autoplay=1",
       orientation: "landscape",
     },
     {
-      title: "Product Demo",
-      category: "Commercial",
+      title: "Meme Videos",
+      category: "Reels",
       duration: "1:45",
       thumbnail: "/placeholder.svg?height=400&width=300",
-      gifThumbnail: "/placeholder.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+      gifThumbnail: "/meme.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/9ErSb32e7d0?autoplay=1",
       orientation: "portrait",
     },
     {
-      title: "Event Highlight",
-      category: "Corporate",
+      title: "Storytelling Video",
+      category: "Storytelling ",
       duration: "3:20",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/placeholder.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+      gifThumbnail: "/Storytelling.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/f4s9ItDy7eo?autoplay=1",
       orientation: "landscape",
     },
+    // {
+    //   title: "Podcast Teaser",
+    //   category: "Social Media",
+    //   duration: "0:45",
+    //   thumbnail: "/placeholder.svg?height=400&width=300",
+    //   gifThumbnail: "/placeholder.gif", // Placeholder GIF
+    //   youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
+    //   orientation: "portrait",
+    // },
     {
-      title: "Podcast Teaser",
-      category: "Social Media",
-      duration: "0:45",
-      thumbnail: "/placeholder.svg?height=400&width=300",
-      gifThumbnail: "/placeholder.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
-      orientation: "portrait",
-    },
-    {
-      title: "Training Video",
-      category: "Corporate",
+      title: "Portfolio",
+      category: "Portfolio",
       duration: "8:30",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/placeholder.gif", // Placeholder GIF
+      gifThumbnail: "/s.gif", // Placeholder GIF
       youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
       orientation: "landscape",
     },
@@ -175,7 +174,7 @@ export default function VideoEditorPortfolio() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Film className="h-8 w-8 text-red-500" />
-            <span className="text-xl font-bold">Alex Chen</span>
+            <span className="text-xl font-bold">IMAQTBRUH</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <Link href="#home" className="hover:text-red-500 transition-colors">
@@ -211,7 +210,7 @@ export default function VideoEditorPortfolio() {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="md:hidden ml-auto"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (
@@ -220,10 +219,11 @@ export default function VideoEditorPortfolio() {
               <Menu className="h-6 w-6" />
             )}
           </Button>
-
-          <Button className="hidden md:block bg-red-600 hover:bg-red-700">
-            Get Quote
-          </Button>
+          <a href="#tel:+919832593566">
+            <Button className="hidden md:block bg-red-600 hover:bg-red-700">
+              Contact Me
+            </Button>
+          </a>
         </div>
       </header>
 
@@ -266,9 +266,11 @@ export default function VideoEditorPortfolio() {
             >
               Contact
             </Link>
-            <Button className="bg-red-600 hover:bg-red-700 w-fit">
-              Get Quote
-            </Button>
+            <Link href="#contact">
+              <Button className="bg-red-600 hover:bg-red-700 w-fit">
+                Contact Me
+              </Button>
+            </Link>
           </nav>
         </div>
       )}
@@ -306,9 +308,9 @@ export default function VideoEditorPortfolio() {
               to Life
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Award-winning video editor with 8+ years of experience creating
-              compelling content for brands, films, and digital platforms. Let's
-              transform your raw footage into cinematic masterpieces.
+              From raw clips to cinematic gold—I help brands, artists, and
+              storytellers turn vision into video. Let’s edit something
+              unforgettable.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="#portfolio">
@@ -317,7 +319,7 @@ export default function VideoEditorPortfolio() {
                   className="bg-red-600 hover:bg-red-700 text-lg px-8"
                 >
                   <Play className="mr-2 h-5 w-5" />
-                  View My Work
+                  Watch My Work
                 </Button>
               </Link>
               <Link href="#contact">
@@ -326,22 +328,24 @@ export default function VideoEditorPortfolio() {
                   variant="outline"
                   className="border-gray-600 text-lg px-8 bg-transparent"
                 >
-                  Connect with Me
+                  Let’s Connect
                 </Button>
               </Link>
             </div>
             <div className="flex items-center gap-8 mt-12">
               <div className="text-center">
-                <div className="text-3xl font-bold text-red-500">500+</div>
-                <div className="text-gray-400">Projects Completed</div>
+                <div className="text-3xl font-bold text-red-500">100+</div>
+                <div className="text-gray-400">Projects Brought to Life</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-red-500">50+</div>
-                <div className="text-gray-400">Happy Clients</div>
+                <div className="text-3xl font-bold text-red-500">20+</div>
+                <div className="text-gray-400">
+                  Clients Who Keep Coming Back
+                </div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-red-500">8+</div>
-                <div className="text-gray-400">Years Experience</div>
+                <div className="text-3xl font-bold text-red-500">3+</div>
+                <div className="text-gray-400">Years Behind the Timeline</div>
               </div>
             </div>
           </div>
@@ -353,14 +357,14 @@ export default function VideoEditorPortfolio() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-red-600/20 text-red-400 border-red-600">
-              Featured Work
+              Featured Projects
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Recent Projects
+              My Edits, Your Impact
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Explore my latest video editing projects across various industries
-              and styles
+              A selection of recent work that speaks louder than words. Watch
+              how I turn moments into motion.
             </p>
           </div>
 
@@ -384,7 +388,7 @@ export default function VideoEditorPortfolio() {
                         width={project.orientation === "landscape" ? 400 : 300}
                         height={project.orientation === "landscape" ? 300 : 400}
                         className={`w-full object-cover ${
-                          project.orientation === "landscape" ? "h-48" : "h-80"
+                          project.orientation === "landscape" ? "h-48" : "h-100"
                         }`}
                       />
                     ) : (
@@ -395,7 +399,7 @@ export default function VideoEditorPortfolio() {
                         height={project.orientation === "landscape" ? 300 : 400}
                         unoptimized
                         className={`w-full object-cover ${
-                          project.orientation === "landscape" ? "h-48" : "h-80"
+                          project.orientation === "landscape" ? "h-48" : "h-100"
                         }`}
                       />
                     )
@@ -406,7 +410,7 @@ export default function VideoEditorPortfolio() {
                       width={project.orientation === "landscape" ? 400 : 300}
                       height={project.orientation === "landscape" ? 300 : 400}
                       className={`w-full object-cover ${
-                        project.orientation === "landscape" ? "h-48" : "h-80"
+                        project.orientation === "landscape" ? "h-48" : "h-100"
                       }`}
                     />
                   )}
@@ -467,11 +471,14 @@ export default function VideoEditorPortfolio() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-red-600/20 text-red-400 border-red-600">
-              What I Offer
+              Service Offerings
             </Badge>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">My Services</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              What I Bring to Your Vision
+            </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Comprehensive video editing solutions tailored to your needs
+              End-to-end video editing services designed for creators who demand
+              more than just “cut and paste.”
             </p>
           </div>
 
@@ -479,27 +486,23 @@ export default function VideoEditorPortfolio() {
             {[
               {
                 icon: <Scissors className="h-8 w-8" />,
-                title: "Video Editing",
-                description:
-                  "Professional cutting, trimming, and sequencing of your footage",
+                title: "Precision Editing",
+                description: "From structure to pacing—every second counts.",
               },
               {
                 icon: <Palette className="h-8 w-8" />,
                 title: "Color Grading",
-                description:
-                  "Cinematic color correction and grading for visual impact",
+                description: "Visual tones that set the mood and raise the bar",
               },
               {
                 icon: <Camera className="h-8 w-8" />,
                 title: "Motion Graphics",
-                description:
-                  "Custom animations and motion graphics integration",
+                description: "Custom animation that moves your message.",
               },
               {
                 icon: <Film className="h-8 w-8" />,
-                title: "Post Production",
-                description:
-                  "Complete post-production workflow from raw to final",
+                title: "Full Post-Production",
+                description: "Sound. Sync. Style. Delivered with finesse.",
               },
             ].map((service, index) => (
               <Card
@@ -521,31 +524,33 @@ export default function VideoEditorPortfolio() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-3xl font-bold mb-4">
-                  Ready to Start Your Project?
+                  Got Footage? I’ve Got Vision.
                 </h3>
                 <p className="text-gray-400 mb-6">
-                  Get a custom quote for your video editing needs. Fast
-                  turnaround, professional quality, and unlimited revisions
-                  included.
+                  Let’s build something scroll-stopping, binge-worthy, or
+                  brand-defining. Hit me up—quotes are free, revisions are
+                  unlimited, and results speak for themselves.
                 </p>
                 <div className="flex items-center gap-4 text-sm text-gray-400">
                   <div className="flex items-center gap-2">
                     <Clock className="h-4 w-4" />
-                    24-48h delivery
+                    Fast Delivery (24–48h)
                   </div>
                   <div className="flex items-center gap-2">
                     <Award className="h-4 w-4" />
-                    Premium quality
+                    Premium Output
                   </div>
                 </div>
               </div>
               <div className="text-center">
-                <Button
-                  size="lg"
-                  className="bg-red-600 hover:bg-red-700 text-lg px-8"
-                >
-                  Get Free Quote
-                </Button>
+                <Link href="#contact">
+                  <Button
+                    size="lg"
+                    className="bg-red-600 hover:bg-red-700 text-lg px-8"
+                  >
+                    Let's Connect
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -560,34 +565,34 @@ export default function VideoEditorPortfolio() {
               Client Reviews
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              What Clients Say
+              Real Words. Real Impact.
             </h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                name: "Sarah Johnson",
-                role: "Marketing Director",
+                name: "Sarah Mehra",
+                role: "Brand Strategist",
                 company: "TechCorp",
                 content:
-                  "Alex transformed our raw footage into a compelling brand story. The attention to detail and creative vision exceeded our expectations.",
+                  "Bishal didn’t just edit a video—he brought our brand to life with rhythm, emotion, and energy.",
                 rating: 5,
               },
               {
-                name: "Mike Rodriguez",
-                role: "Film Producer",
+                name: "Rohit Banerjee",
+                role: "Documentary Filmmaker",
                 company: "Independent Films",
                 content:
-                  "Working with Alex was a game-changer for our documentary. The editing brought emotional depth and perfect pacing to our story.",
+                  "I handed him 5 hours of rough footage. He returned a story that moved us to tears.",
                 rating: 5,
               },
               {
-                name: "Emma Davis",
+                name: "Ananya Das",
                 role: "Content Creator",
                 company: "Social Media Agency",
                 content:
-                  "Fast turnaround, professional quality, and great communication. Alex understands what works for social media platforms.",
+                  "He gets the platform, the pace, and the pulse of online content. He’s my go-to editor.",
                 rating: 5,
               },
             ].map((testimonial, index) => (
@@ -619,27 +624,27 @@ export default function VideoEditorPortfolio() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-red-600/20 text-red-400 border-red-600">
-                About Me
+                Hi, I’m Bishal.
               </Badge>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Passionate About
-                <span className="text-red-500"> Storytelling</span>
+                An Editor
+                <span className="text-red-500"> Obsessed </span>with
+                Storytelling.
               </h2>
               <p className="text-gray-400 mb-6 leading-relaxed">
-                With over 8 years in the industry, I've had the privilege of
-                working with brands, filmmakers, and content creators to bring
-                their visions to life. My approach combines technical expertise
-                with creative storytelling to deliver videos that not only look
-                great but also connect with audiences.
+                With over 3 years of cutting, grading, syncing, and finessing
+                frames—I’ve edited for brands, indie filmmakers, musicians, and
+                social media creators. I don’t just polish video—I shape
+                emotion.
               </p>
               <p className="text-gray-400 mb-8 leading-relaxed">
-                I specialize in narrative-driven editing, color grading, and
-                motion graphics, always staying current with the latest tools
-                and techniques in the industry.
+                If you're looking for edits that connect, content that performs,
+                and someone who speaks the language of storytelling through
+                video—you're in the right place.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-semibold mb-2">Software Expertise</h4>
+                  <h4 className="font-semibold mb-2">Tools of the Trade</h4>
                   <ul className="text-gray-400 space-y-1">
                     <li>• Adobe Premiere Pro</li>
                     <li>• DaVinci Resolve</li>
@@ -650,9 +655,9 @@ export default function VideoEditorPortfolio() {
                 <div>
                   <h4 className="font-semibold mb-2">Specializations</h4>
                   <ul className="text-gray-400 space-y-1">
+                    <li>• Gamming Videos</li>
                     <li>• Commercial Videos</li>
-                    <li>• Music Videos</li>
-                    <li>• Documentaries</li>
+                    <li>• Wedding Videos</li>
                     <li>• Social Media Content</li>
                   </ul>
                 </div>
@@ -667,7 +672,7 @@ export default function VideoEditorPortfolio() {
                 className="rounded-2xl"
               />
               <div className="absolute -bottom-6 -right-6 bg-red-600 text-white p-6 rounded-2xl">
-                <div className="text-2xl font-bold">8+</div>
+                <div className="text-2xl font-bold">3+</div>
                 <div className="text-sm">Years Experience</div>
               </div>
             </div>
@@ -683,11 +688,11 @@ export default function VideoEditorPortfolio() {
               Get In Touch
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Let's Create Something Amazing
+              Let’s Make Something Amazing Together
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Ready to bring your vision to life? Connect with me and let's
-              discuss your next project.
+              Your story is waiting to be told—and I’m ready to cut, color, and
+              create it.
             </p>
           </div>
 
@@ -701,7 +706,12 @@ export default function VideoEditorPortfolio() {
               <p className="text-gray-400 mb-4">
                 Get in touch for project inquiries
               </p>
-              <p className="text-red-400 font-medium">alex@videoeditor.com</p>
+              <a
+                href="mailto:bishalhaldar2@gmail.com"
+                className="text-red-400 font-medium hover:underline"
+              >
+                bishalhaldar2@gmail.com
+              </a>
             </Card>
 
             {/* Phone Card */}
@@ -711,7 +721,12 @@ export default function VideoEditorPortfolio() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Call Me</h3>
               <p className="text-gray-400 mb-4">Let's discuss your project</p>
-              <p className="text-red-400 font-medium">+1 (555) 123-4567</p>
+              <a
+                href="tel:+919832593566"
+                className="text-red-400 font-medium hover:underline"
+              >
+                +91 98325 93566
+              </a>
             </Card>
 
             {/* Location Card */}
@@ -720,43 +735,57 @@ export default function VideoEditorPortfolio() {
                 <MapPin className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Location</h3>
-              <p className="text-gray-400 mb-4">Based in sunny California</p>
-              <p className="text-red-400 font-medium">Los Angeles, CA</p>
+              <p className="text-gray-400 mb-4">Pradhan Nagar, Siliguri</p>
+              <p className="text-red-400 font-medium">Darjeeling, WB</p>
             </Card>
           </div>
 
           {/* Social Media Section */}
           <div className="text-center">
-            <h3 className="text-2xl font-bold mb-6">
-              Follow My Creative Journey
-            </h3>
+            <h3 className="text-2xl font-bold mb-6">Follow My Journey</h3>
             <p className="text-gray-400 mb-8 max-w-lg mx-auto">
-              Stay updated with my latest work, behind-the-scenes content, and
-              video editing tips
+              Behind-the-scenes, Work-in-progress, and Editing Tips
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white"
+              <a
+                href="https://www.instagram.com/imaqtbruh?igsh=MTQxbG8waGQyeGtlYg%3D%3D&utm_source=qr
+"
+                target="_blank"
               >
-                <Instagram className="h-5 w-5 mr-2" />
-                Follow on Instagram
-              </Button>
-              <Button
-                size="lg"
-                className="bg-red-600 hover:bg-red-700 text-white"
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 text-white"
+                >
+                  <Instagram className="h-5 w-5 mr-2" />
+                  Follow on Instagram
+                </Button>
+              </a>
+              <a
+                href="https://youtube.com/@imaqtbruh?si=5TtUvH3on5OJ7dkW"
+                target="_blank"
               >
-                <Youtube className="h-5 w-5 mr-2" />
-                Subscribe on YouTube
-              </Button>
-              <Button
-                size="lg"
-                className="bg-blue-600 hover:bg-blue-700 text-white"
+                <Button
+                  size="lg"
+                  className="bg-red-600 hover:bg-red-700 text-white"
+                >
+                  <Youtube className="h-5 w-5 mr-2" />
+                  Subscribe on YouTube
+                </Button>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/bishal-kr-118910217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+"
+                target="_blank"
               >
-                <Linkedin className="h-5 w-5 mr-2" />
-                Connect on LinkedIn
-              </Button>
+                <Button
+                  size="lg"
+                  className="bg-blue-600 hover:bg-blue-700 text-white"
+                >
+                  <Linkedin className="h-5 w-5 mr-2" />
+                  Connect on LinkedIn
+                </Button>
+              </a>
             </div>
 
             {/* CTA Section */}
@@ -770,12 +799,16 @@ export default function VideoEditorPortfolio() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Film className="h-8 w-8 text-red-500" />
-              <span className="text-xl font-bold">Alex Chen</span>
+              <span className="text-xl font-bold">IMAQTBRUH</span>
             </div>
             <div className="text-gray-400 text-center md:text-right">
-              <p>&copy; 2024 Alex Chen Video Editor. All rights reserved.</p>
+              <p>&copy; 2025 Bishal Kr Haldar | Professional Video Editor</p>
               <p className="text-sm mt-1">
-                Bringing stories to life through the art of editing
+                Crafted with creativity. Delivered with passion.
+                <span className="text-red-500">
+                  {" "}
+                  <a href="https://www.linkedin.com/in/joy-webdesigner/">Joy</a>
+                </span>
               </p>
             </div>
           </div>
