@@ -34,14 +34,15 @@ export default function VideoEditorPortfolio() {
 
   const allProjects = [
     {
-      title: "Wedding",
-      category: "Wedding",
-      duration: "2:30",
+      title: "PUBG Montage",
+      category: "Montage",
+      duration: "12:15",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/wedding.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/wOjM6FtgIh8?autoplay=1", // Example YouTube embed URL
+      gifThumbnail: "/pubg.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/I3cBS4Yg8lw?autoplay=1",
       orientation: "landscape",
     },
+    
     {
       title: "Gaming Reel",
       category: "Instagram Reel",
@@ -97,14 +98,15 @@ export default function VideoEditorPortfolio() {
       orientation: "landscape",
     },
     {
-      title: "PUBG Montage",
-      category: "Montage",
-      duration: "12:15",
+      title: "Wedding",
+      category: "Wedding",
+      duration: "2:30",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/pubg.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/I3cBS4Yg8lw?autoplay=1",
+      gifThumbnail: "/wedding.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/wOjM6FtgIh8?autoplay=1", // Example YouTube embed URL
       orientation: "landscape",
     },
+    
     // Additional projects for load more
     {
       title: "Esports Game Highlights",
@@ -177,7 +179,7 @@ export default function VideoEditorPortfolio() {
             <span className="text-xl font-bold">IMAQTBRUH</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="#home" className="hover:text-red-500 transition-colors">
+            <Link href="/" className="hover:text-red-500 transition-colors">
               Home
             </Link>
             <Link
@@ -524,7 +526,7 @@ export default function VideoEditorPortfolio() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-3xl font-bold mb-4">
-                  Got Footage? I’ve Got Vision.
+                  Got Footages? I’ve Got Vision.
                 </h3>
                 <p className="text-gray-400 mb-6">
                   Let’s build something scroll-stopping, binge-worthy, or
@@ -534,7 +536,7 @@ export default function VideoEditorPortfolio() {
                 <div className="flex items-center gap-4 text-sm text-gray-400">
                   <div className="flex items-center gap-2">
                     <Clock className="h-4 w-4" />
-                    Fast Delivery (24–48h)
+                    Fast Delivery
                   </div>
                   <div className="flex items-center gap-2">
                     <Award className="h-4 w-4" />
@@ -558,7 +560,7 @@ export default function VideoEditorPortfolio() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20 bg-gray-900">
+      {/* <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-red-600/20 text-red-400 border-red-600">
@@ -616,7 +618,7 @@ export default function VideoEditorPortfolio() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* About Section */}
       <section id="about" className="py-20 bg-black">
@@ -707,10 +709,10 @@ export default function VideoEditorPortfolio() {
                 Get in touch for project inquiries
               </p>
               <a
-                href="mailto:bishalhaldar2@gmail.com"
+                href="mailto:bishal.kr.slg@gmail.com"
                 className="text-red-400 font-medium hover:underline"
               >
-                bishalhaldar2@gmail.com
+                bishal.kr.slg@gmail.com
               </a>
             </Card>
 
