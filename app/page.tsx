@@ -219,7 +219,7 @@ export default function VideoEditorPortfolio() {
               <Menu className="h-6 w-6" />
             )}
           </Button>
-          <a href="#tel:+919832593566">
+          <a href="tel:+919832593566">
             <Button className="hidden md:block bg-red-600 hover:bg-red-700">
               Contact Me
             </Button>
