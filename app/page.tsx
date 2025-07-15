@@ -36,44 +36,45 @@ export default function VideoEditorPortfolio() {
     {
       title: "PUBG Montage",
       category: "Montage",
-      duration: "12:15",
+      duration: "1:23",
+      description:
+        "High-energy PUBG montage with sharp cuts, synced beats, and smooth transitions.",
       thumbnail: "/placeholder.svg?height=300&width=400",
       gifThumbnail: "/pubg.gif", // Placeholder GIF
       youtubeEmbedUrl: "https://www.youtube.com/embed/I3cBS4Yg8lw?autoplay=1",
       orientation: "landscape",
     },
-    
+
     {
       title: "Gaming Reel",
       category: "Instagram Reel",
-      duration: "0:30",
+      duration: "0:57",
+      description:
+        "Quick gaming highlight — sharp, snappy, and made for Shorts.",
       thumbnail: "/placeholder.svg?height=400&width=300",
       gifThumbnail: "/Gaming.gif", // Placeholder GIF
       youtubeEmbedUrl: "https://www.youtube.com/embed/0l3OfN9bQxs?autoplay=1",
       orientation: "portrait",
     },
     {
-      title: "Podcast Episode",
-      category: "Podcast",
-      duration: "3:45",
+      title: "Valorant Montage",
+      category: "Montage",
+      duration: "1:46",
+      description:
+        "Sharp Valorant montage with synced shots, clean transitions, and clutch highlights.",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/Podcast.gif",
-      youtubeEmbedUrl: "https://www.youtube.com/embed/SzHh8WFu1ps?autoplay=1",
+      gifThumbnail: "/montage.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/xzmadKWfjqQ?autoplay=1",
       orientation: "landscape",
     },
-    {
-      title: "Vlog Reel",
-      category: "Instagram Reel",
-      duration: "0:15",
-      thumbnail: "/placeholder.svg?height=400&width=300",
-      gifThumbnail: "/vlog.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/9T-N9D74hNw?autoplay=1",
-      orientation: "portrait",
-    },
+    
+   
     {
       title: "CS2 Montage",
       category: "Gaming",
-      duration: "45:00",
+      duration: "1:29",
+      description:
+        "High-intensity CS2 montage with sharp syncing, clean cuts, and impactful frags.",
       thumbnail: "/placeholder.svg?height=300&width=400",
       gifThumbnail: "/cs2.gif", // Placeholder GIF
       youtubeEmbedUrl: "https://www.youtube.com/embed/aZVOk0qeGu8?autoplay=1",
@@ -82,36 +83,54 @@ export default function VideoEditorPortfolio() {
     {
       title: "Event Trailer",
       category: "Trailer",
-      duration: "1:00",
+      duration: "0:44",
+      description:
+        "Cinematic trailer edit for a gaming IP — paced for impact with bold visuals and dramatic flow.",
       thumbnail: "/placeholder.svg?height=400&width=300",
       gifThumbnail: "/event.gif", // Placeholder GIF
       youtubeEmbedUrl: "https://www.youtube.com/embed/44RqwDFs7i8?autoplay=1",
       orientation: "portrait",
     },
+     {
+      title: "Vlog Reel",
+      category: "Instagram Reel",
+      duration: "1:30",
+      description:
+        "Cinematic vlog edits with clean cuts and story-driven pacing.",
+      thumbnail: "/placeholder.svg?height=400&width=300",
+      gifThumbnail: "/vlog.gif", // Placeholder GIF
+      youtubeEmbedUrl: "https://www.youtube.com/embed/9T-N9D74hNw?autoplay=1",
+      orientation: "portrait",
+    },
     {
-      title: "Valorant Montage",
-      category: "Montage",
-      duration: "5:20",
+      title: "Podcast Episode",
+      category: "Podcast",
+      duration: "28:10",
+      description: "Clean, minimal podcast edit with clear flow and pacing.",
       thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/montage.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/xzmadKWfjqQ?autoplay=1",
+      gifThumbnail: "/Podcast.gif",
+      youtubeEmbedUrl: "https://www.youtube.com/embed/SzHh8WFu1ps?autoplay=1",
       orientation: "landscape",
     },
     {
       title: "Wedding",
       category: "Wedding",
-      duration: "2:30",
+      duration: "1:39",
+      description:
+        "Cinematic wedding edit capturing timeless moments and emotions.",
       thumbnail: "/placeholder.svg?height=300&width=400",
       gifThumbnail: "/wedding.gif", // Placeholder GIF
       youtubeEmbedUrl: "https://www.youtube.com/embed/wOjM6FtgIh8?autoplay=1", // Example YouTube embed URL
       orientation: "landscape",
     },
-    
+
     // Additional projects for load more
     {
       title: "Esports Game Highlights",
       category: "Highlights",
-      duration: "0:10",
+      duration: "8:44",
+      description:
+        "Fast-paced esports highlights with quick cuts and impactful moments.",
       thumbnail: "/placeholder.svg?height=300&width=400",
       gifThumbnail: "/Highlights.gif", // Placeholder GIF
       youtubeEmbedUrl: "https://www.youtube.com/embed/nu_DNbXJG9M?autoplay=1",
@@ -120,7 +139,9 @@ export default function VideoEditorPortfolio() {
     {
       title: "Meme Videos",
       category: "Reels",
-      duration: "1:45",
+      duration: "0:45",
+      description:
+        "Fast-cut meme edits with sharp timing and viral-ready humor.",
       thumbnail: "/placeholder.svg?height=400&width=300",
       gifThumbnail: "/meme.gif", // Placeholder GIF
       youtubeEmbedUrl: "https://www.youtube.com/embed/9ErSb32e7d0?autoplay=1",
@@ -129,7 +150,8 @@ export default function VideoEditorPortfolio() {
     {
       title: "Storytelling Video",
       category: "Storytelling ",
-      duration: "3:20",
+      duration: "9:03",
+      description: "Cinematic storytelling edits with clear flow and impact.",
       thumbnail: "/placeholder.svg?height=300&width=400",
       gifThumbnail: "/Storytelling.gif", // Placeholder GIF
       youtubeEmbedUrl: "https://www.youtube.com/embed/f4s9ItDy7eo?autoplay=1",
@@ -144,15 +166,15 @@ export default function VideoEditorPortfolio() {
     //   youtubeEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1",
     //   orientation: "portrait",
     // },
-    {
-      title: "Portfolio",
-      category: "Portfolio",
-      duration: "8:30",
-      thumbnail: "/placeholder.svg?height=300&width=400",
-      gifThumbnail: "/s.gif", // Placeholder GIF
-      youtubeEmbedUrl: "https://www.youtube.com/embed/5rlKxDscqKg?autoplay=1",
-      orientation: "landscape",
-    },
+    // {
+    //   title: "Portfolio",
+    //   category: "Portfolio",
+    //   duration: "8:30",
+    //   thumbnail: "/placeholder.svg?height=300&width=400",
+    //   gifThumbnail: "/s.gif", // Placeholder GIF
+    //   youtubeEmbedUrl: "https://www.youtube.com/embed/5rlKxDscqKg?autoplay=1",
+    //   orientation: "landscape",
+    // },
   ];
 
   const displayedProjects = showAllProjects
@@ -175,8 +197,15 @@ export default function VideoEditorPortfolio() {
       <header className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-gray-800">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Film className="h-8 w-8 text-red-500" />
-            <span className="text-xl font-bold">IMAQTBRUH</span>
+            {/* <Film className="h-8 w-8 text-red-500" /> */}
+            <Image
+              src="/logo.png"
+              alt="Logo"
+              width={160}
+              height={40}
+              className="rounded-full"
+            />
+            {/* <span className="text-xl font-bold">IMAQTBRUH</span> */}
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <Link href="/" className="hover:text-red-500 transition-colors">
@@ -430,19 +459,16 @@ export default function VideoEditorPortfolio() {
                   <Badge className="absolute top-4 left-4 bg-red-600">
                     {project.category}
                   </Badge>
-                  <div className="absolute bottom-4 right-4 bg-black/70 px-2 py-1 rounded text-sm">
+                  <div className="absolute bottom-4 right-4 bg-black/70 px-2 py-1 rounded text-sm text-white/80">
                     {project.duration}
                   </div>
                 </div>
 
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">
+                  <h3 className="text-xl font-semibold mb-2 text-white/80">
                     {project.title}
                   </h3>
-                  <p className="text-gray-400">
-                    Professional video editing with cinematic color grading and
-                    smooth transitions
-                  </p>
+                  <p className="text-gray-400">{project.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -649,9 +675,9 @@ export default function VideoEditorPortfolio() {
                   <h4 className="font-semibold mb-2">Tools of the Trade</h4>
                   <ul className="text-gray-400 space-y-1">
                     <li>• Adobe Premiere Pro</li>
-                    <li>• DaVinci Resolve</li>
                     <li>• After Effects</li>
-                    <li>• Final Cut Pro</li>
+                    <li>• Photoshop</li>
+                    <li>• GT Designer</li>
                   </ul>
                 </div>
                 <div>
@@ -800,8 +826,13 @@ export default function VideoEditorPortfolio() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <Film className="h-8 w-8 text-red-500" />
-              <span className="text-xl font-bold">IMAQTBRUH</span>
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                width={160}
+                height={40}
+                className="rounded-full"
+              />
             </div>
             <div className="text-gray-400 text-center md:text-right">
               <p>&copy; 2025 Bishal Kr Haldar | Professional Video Editor</p>
