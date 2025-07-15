@@ -67,8 +67,7 @@ export default function VideoEditorPortfolio() {
       youtubeEmbedUrl: "https://www.youtube.com/embed/xzmadKWfjqQ?autoplay=1",
       orientation: "landscape",
     },
-    
-   
+
     {
       title: "CS2 Montage",
       category: "Gaming",
@@ -91,7 +90,7 @@ export default function VideoEditorPortfolio() {
       youtubeEmbedUrl: "https://www.youtube.com/embed/44RqwDFs7i8?autoplay=1",
       orientation: "portrait",
     },
-     {
+    {
       title: "Vlog Reel",
       category: "Instagram Reel",
       duration: "1:30",
@@ -344,7 +343,15 @@ export default function VideoEditorPortfolio() {
               unforgettable.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="#portfolio">
+              <Button
+                size="lg"
+                className="bg-red-600 hover:bg-red-700 text-lg px-8"
+                onClick={() => openVideoModal("https://www.youtube.com/embed/5rlKxDscqKg?autoplay=1")}
+              >
+                <Play className="mr-2 h-5 w-5" />
+                Watch Showreel
+              </Button>
+              {/* <Link href="#portfolio">
                 <Button
                   size="lg"
                   className="bg-red-600 hover:bg-red-700 text-lg px-8"
@@ -352,7 +359,7 @@ export default function VideoEditorPortfolio() {
                   <Play className="mr-2 h-5 w-5" />
                   Watch My Work
                 </Button>
-              </Link>
+              </Link> */}
               <Link href="#contact">
                 <Button
                   size="lg"
